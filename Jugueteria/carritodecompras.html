@@ -1,0 +1,220 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="CSS/estilo.css">
+  <link rel="stylesheet" href="CSS/bootstrap/CSS/bootstrap.min.css">
+  <!--script -->
+  <script type="text/javascript" src="manejomatriz.js"></script>
+  <!--script -->
+  <title> JugueteriaRainBow </title>
+
+
+  <br>
+  <center>
+    <ul>
+      <div>Aprovecha hasta un 40% de descuento.</div>
+    </ul>
+    <ul>
+      <div> TEMPORADA DE REGALOS. Hasta 25% de descuento* + Hasta 12 mensualidades sin intereses* + Obtén triples puntos
+        en compras de $5,000 pesos o más. </div>
+    </ul>
+  </center>
+
+  <hr width=100%>
+  <center><img src="img/foto1.jpg" width="1500" height="400" border="4"></center>
+  </div>
+  </header>
+  <hr width=100%>
+</head>
+
+<body>
+
+
+  <center>
+
+    <br>
+    <h1> Jugueteria RainBow </h1>
+  </center>
+
+
+
+
+
+
+
+  <center>
+    <button type="button" class="btn btn-primary">0 a 6 Meses</button>
+    <button type="button" class="btn btn-secondary">6 a 12 Meses</button>
+    <button type="button" class="btn btn-danger">12 a 18 Meses</button>
+    <button type="button" class="btn btn-warning">18 a 24 Meses </button>
+    <button type="button" class="btn btn-success">24 a 32 Meses</button>
+    <button type="button" class="btn btn-dark">2 a 5 años</button>
+    <button type="button" class="btn btn-info">5 a 7 años</button>
+    <button type="button" class="btn btn-light">7 a 10 años</button>
+
+
+  </center>
+
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Inicio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+          </li>
+          <li class="nav-item">
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Filtrar Productos
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Configuraciones</a></li>
+              <li><a class="dropdown-item" href="#">Ingresar Usuario</a></li>
+              <li>
+                <hr class="dropdown-divider">Registrate
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Desactivado</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Rompecabezas" aria-label="Rompecabezas">
+          <button class="btn btn-outline-success" type="submit">Buscar </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <br>
+
+
+  <center>
+    <p> ¿Quieres iniciar Sesion? <a href=iniciarSesion.html> Iniciar Sesion. </a>
+  </center>
+
+
+  <hr width=100%>
+  <br><br>
+  
+  <div class="container row">
+    <div class="col-md-12 row">
+      <div class="col-md-6">
+  <h1> Actualizacion de Stock </h1>
+  <br><br>
+</div>
+    </div>
+  </div>
+  <!--  Aqui ingresaremos el carrito de compras    -->
+
+                <div class="container row">
+                  <div class="col-md-12 row">
+                    <div class="col-md-6">
+                      <label for="codigo">Coloque el codigo de su producto</label>
+                    </div>
+                    <div class="col-md-6">
+                      <input name="codigo" class="form-control" id="codigo" size="50" maxlength="250" type="text">
+                    </div>
+                  </div>
+                  <br><br>
+                  <div class="col-md-12 row">
+                    <div class="col-md-6">
+                      <label for="nombre">Coloque el nombre de el producto </label> 
+                    </div>
+                    <div class="col-md-6">
+                      <input name="nombre" class="form-control" id="nombre" size="100" maxlength="550" type="text">
+                    </div>
+                  </div>
+                  <br><br>
+                  <div class="col-md-12 row">
+                    <div class="col-md-6">
+                      <label for="precio">Coloque el precio de el producto </label>
+                    </div>
+                    <div class="col-md-6">
+                      <input size="5" class="form-control" id="precio" name="precio" type="text">
+                    </div>
+                  </div>
+                  <br><br>
+                  <div class="col-md-12 row">
+                    <div class="col-md-6">
+                      <label for="descripcion">Descripcion del producto </label>
+                    </div>
+                    <div class="col-md-6">
+                      <input size="5"  class="form-control" id="descripcion" name="descripcion" type="text">
+                    </div>
+                  </div>
+                  <br><br>
+                  <div class="col-md-12 row">
+                    <div class="col-md-6">
+                      <label for="stock">Stock disponible en tienda </label>
+                    </div>
+                    <div class="col-md-6">
+                      <input size="5" id="stock" class="form-control" name="stock" type="text">
+                    </div>
+                  </div>
+                </div>
+                <br><br>
+                <div class="container row">
+                  <div class="col-md-12 row">
+                    <div class="offset-5 col-md-7">
+                        <input type="button" class="btn btn-success" onclick="insertarProducto()" value="Ingresar Productos">
+                        <input type="button" class="btn btn-warning" onclick="actualizarProducto()" value="Actualizar Productos por precio y stock">
+                    </div>
+                  </div>
+                </div>
+
+
+  <div class="container row">
+    <div class="col-lg-10 offset-lg-1">
+      <table class="table col-lg-12">
+        <thead>
+          <tr>
+            <td>Codigo</td>
+            <td>Nombre</td>
+            <td>Precio</td>
+            <td>Descripcion</td>
+            <td>Stock</td>
+            <td>Acciones</td>
+          </tr>
+        </thead>
+        <tbody id="tbody">
+
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+
+  <hr width=100%>
+
+
+  <BR>
+  <center><button><a href="index.html">
+        <h1>Inicio<h1>
+      </a></button> </center>
+  <BR>
+
+
+
+  <center> Se reservan los derechos de autor de esta pagina por RainBow. </center>
+  <center> 26-04-2022. </center>
+  </p>
+
+  <BR>
+
+
+
+
+
+</body>
+
+</html>

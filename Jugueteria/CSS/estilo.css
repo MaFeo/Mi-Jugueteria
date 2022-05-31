@@ -1,0 +1,46 @@
+.columna
+{
+	background:#0D47A1;
+	color: #ffffff;
+	border-radius:4px;
+	padding:20px;
+}
+
+
+header{
+
+	background: E8D92E;
+
+}
+
+div{
+
+color:black;
+border: 50px;
+
+
+}
+
+ul{
+
+background: white;
+color:white;
+
+
+
+}
+
+
+h1{
+
+text-align:left;
+font-family: georgia ;
+}
+
+
+form{
+	border-radius: 20px;
+	border: 20px;
+	text-align: center;
+	background: white;
+}

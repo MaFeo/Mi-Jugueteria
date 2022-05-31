@@ -1,0 +1,58 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="CSS/estilo.css">
+<link rel="stylesheet" href="CSS/bootstrap/CSS/bootstrap.min.css">
+<title> Ejemplo Bootstrap </title>
+</head>
+<body>
+
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
+
+<div class="container">
+  <div class="row align-items-start">
+    <div class="col">
+      <p class="columna">One of three columns </p>
+    </div>
+    <div class="col">
+     <p class="columna">One of three columns </p>
+    </div>
+    <div class="col">
+     <p class="columna"> One of three columns </p>
+    </div>
+  </div>
+  <div class="row align-items-center">
+    <div class="col">
+      <p class="columna">One of three columns</p>
+    </div>
+    <div class="col">
+      <p class="columna">One of three columns</p>
+    </div>
+    <div class="col">
+      <p class="columna">One of three columns</p>
+    </div>
+  </div>
+  <div class="row align-items-end">
+    <div class="col">
+      <p class="columna">One of three columns</p>
+    </div>
+    <div class="col">
+      <p class="columna">One of three columns</p>
+    </div>
+    <div class="col">
+      <p class="columna">One of three columns</p>
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>
